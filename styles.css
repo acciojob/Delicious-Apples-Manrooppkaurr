@@ -1,1 +1,82 @@
 /* your code here */
+.controls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 8px;
+}
+
+.product__photo{
+    width: 350px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+.product-container{
+    display: flex;
+    flex-direction: row;
+}
+.photo-main{
+    background-color: rgb(184,234,69);
+}
+.photo-main > img{
+
+}
+.photo-album ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.photo-album > ul > li > img{
+    border: 1px solid gray;
+    border-radius: 1px;
+    padding: 2px;
+}
+.photo-album ul li{
+    list-style: none;
+    
+}
+
+.product__info{
+    width: 550px;
+    height: 800px;
+    border:2px solid black;
+}
+
+.title span{
+    color:gray;
+    font-weight: 300;
+}
+.price{
+    color:red;
+    font-size: 50px;
+    font-weight: 600;
+}
+.variant h3{
+    color:gray;
+    font-weight: 500;
+}
+.variant ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.variant ul li{
+    list-style: none;
+}
+.description h3{
+    color:gray;
+    font-weight: 500;
+}
+button{
+    background-color: red;
+    padding: 15px;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    font-size: 18px;
+}
